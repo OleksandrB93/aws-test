@@ -19,5 +19,5 @@ function App({ signOut, user }) {
 }
 
 export default withAuthenticator(App, {
-  // socialProviders: ["google"], 
+  socialProviders: ["google"], 
 });
